@@ -5,7 +5,7 @@ var channel = GrpcChannel.ForAddress("http://localhost:5052");
 var client = new Greeter.GreeterClient(channel);
 
 var reply = await client.SayHelloAsync(
-        new HelloRequest { Name = ".NET conf" }
+        new HelloRequest { Name = "Chashtag" }
     );
 
 
